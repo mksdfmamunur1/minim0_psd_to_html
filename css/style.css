@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+header{
+	margin-top: 70px;
+}
+.wrapper{
+	width: 88%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 30%;
+}
+.logo p{
+	font-family: 'Inconsolata', monospace;
+	color:rgb(38,38,38);
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.menu{
+	float: right;
+	width: 60%;
+	margin-top: 10px;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li:nth-child(2) {
+	padding-left: 120px;
+}
+.menu ul li:nth-child(3) {
+	padding-left: 101px;
+}
+.menu ul li:nth-child(4) {
+	padding-left: 89px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: rgb(98,98,98);
+	display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+.menu ul li a:hover {}
+
+/*header end*/
+/*hompage start*/
+.home_page{
+	margin-top: 40px;
+}
+.banner{}
+.banner img{
+	width: 100%;
+}
+.wrapper1{
+	width: 76%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.first_post{
+	margin-top: 54px;
+}
+.first_post p{
+	color:rgb(98,98,98);
+	font-size: 16px;
+
+}
+.first_post p:nth-child(1) {
+	text-transform: uppercase;
+}
+.first_post p:nth-child(2) {
+	font-size: 30px;
+	margin: 25px 0px;
+}
+.first_post p:nth-child(4) {
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+/*homepage end*/
